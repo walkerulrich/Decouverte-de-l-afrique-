@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+  <title>Country Game</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../img/logo.jpg" height="70" alt="le logo" >
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Accueil
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/carte.html">Carte d'afrique</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/pays.html">Pays</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/game_country.html">Country Game</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../html/contact.html">Nous contactez ?</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+
+    <h1>Country Game</h1>
+    <button class="button">Choisir un drapeau au hazard</button>
+
+    <section>
+      <img class="img" src="../img/test.jpg" alt="drapeau" style="width: 200px; height: 200px" />
+      <p></p>
+      <p></p>
+      <h2>A quel pays appartient ce drapeau ?</h2>
+    </section>
+    <section id="options"></section>
+    <h1 id="answer"></h1>
+
+  </div>
+  
+  <footer class="text-center text-lg-start text-white"
+  style="background-color: #343434; position: relative; bottom: 0; width: 100%;">
+
+  <div class="p-3 text-center">
+      <hr class="mb-4 mt-0 mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+      <a href="index.html" class="text-white mb-3">Accueil</a>
+      <a href="html/carte.html" class="text-white">Carte d'Afrique</a>
+      <a href="html/pays.html" class="text-white">Pays</a>
+      <a href="html/about.html" class="text-white">À propos de nous</a>
+  </div>
+  <!-- Grid row -->
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2024 Copyright:
+      <a class="text-white" href="#">Walker</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  <script src="./country_images.json"></script>
+  <script src="../js/country.js"></script>
+ 
+</body>
+
+
+
+</html>
