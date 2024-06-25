@@ -1,0 +1,793 @@
+.mw-plusminus-pos {
+    color: #00aa00
+}
+
+.mw-plusminus-neg {
+    color: #aa0000
+}
+
+.mw-plusminus-null {
+    color: #888888
+}
+
+.allpagesredirect {
+    font-style: italic
+}
+
+.infobox {
+    background-color: #eeeeee;
+    color: black;
+    float: right;
+    clear: right;
+    font-size: 95%;
+    border-collapse: collapse;
+    margin: 0 0 0.5em 1em
+}
+
+.infobox caption {
+    background-color: #c0c0c0;
+    border-left: 1px solid #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+    padding: 0.2em;
+    margin-left: 0.57em;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-size: 160%
+}
+
+.infobox th,
+.infobox td {
+    vertical-align: middle;
+    border: 1px solid #aaaaaa;
+    padding: 0.2em 0.2em 0.2em 0.5em
+}
+
+.infobox td {
+    text-align: center;
+    background: #f9f9f9
+}
+
+.infobox th {
+    font-weight: normal;
+    text-align: left
+}
+
+.infobox .infoboximage {
+    background: #ffffff;
+    padding: 0;
+    margin-top: 0;
+    color: black;
+    text-align: center
+}
+
+.infobox .infoboxsoustitre {
+    padding: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 115%;
+    line-height: 2;
+    text-align: center
+}
+
+.reference,
+.exposant {
+    vertical-align: text-top;
+    position: relative;
+    top: -0.3em;
+    padding-left: 1px
+}
+
+.romain {
+    text-transform: lowercase;
+    font-variant: small-caps
+}
+
+table.wikitable {
+    margin: 1em 1em 1em 0;
+    background: #f9f9f9;
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse
+}
+
+table.wikitable th,
+table.wikitable td {
+    border: 1px #aaaaaa solid;
+    padding: 0.2em
+}
+
+table.wikitable th {
+    background: #f2f2f2;
+    text-align: center
+}
+
+table.wikitable caption {
+    margin-left: inherit;
+    margin-right: inherit
+}
+
+table.wikitemplate {
+    margin: 1em 1em 1em 0;
+    width: 80%;
+    background: #f7f8ff;
+    padding: 3px;
+    border: 1px #aaaaaa solid
+}
+
+table.wikitablue th {
+    background: #c8d8ff;
+    text-align: center
+}
+
+.noeditsection .mw-editsection {
+    display: none
+}
+
+.lienNoir a {
+    color: black
+}
+
+.lienNoir a:visited {
+    color: #707070
+}
+
+.lienBlanc a {
+    color: white
+}
+
+.lienBlanc a:hover {
+    color: white;
+    text-decoration: underline
+}
+
+.lienBlanc a:visited {
+    color: #B9B9B9
+}
+
+.lienRefMath {
+    color: black;
+    text-decoration: none
+}
+
+.lienRefMath:hover {
+    background-color: white;
+    border-bottom: 0
+}
+
+.liste-horizontale,
+.liste-horizontale ul,
+.liste-horizontale ol,
+.liste-horizontale li {
+    display: inline;
+    margin-left: 0
+}
+
+.liste-horizontale li {
+    white-space: nowrap
+}
+
+.liste-horizontale li:not(:last-child):after {
+    content: "\A0• ";
+    white-space: normal
+}
+
+.liste-horizontale li>ul,
+.liste-horizontale li>ol {
+    white-space: normal;
+    font-size: 90%
+}
+
+.liste-horizontale li>ul:before,
+.liste-horizontale li>ol:before {
+    content: " ("
+}
+
+.liste-horizontale li>ul:after,
+.liste-horizontale li>ol:after {
+    content: ")"
+}
+
+.liste-horizontale ol {
+    counter-reset: listitem
+}
+
+.liste-horizontale ol>li {
+    counter-increment: listitem
+}
+
+.liste-horizontale ol>li:before {
+    content: counter(listitem) ".\202F"
+}
+
+.liste-sans-puces>ul {
+    line-height: inherit;
+    list-style: none;
+    margin: 0
+}
+
+.liste-sans-puces>ul>li {
+    margin-bottom: 0
+}
+
+div.bandeau-entete,
+div.bandeau-section {
+    border-style: solid;
+    overflow: hidden;
+    position: relative
+}
+
+div.bandeau-entete,
+div.bandeau-section {
+    display: block;
+    border-width: 0;
+    padding: 0.2em 0.5em 0.3em 2.2em;
+    margin: 0.3em 0 0.6em 0
+}
+
+div.bandeau-entete+div.bandeau-entete {
+    margin: -0.6em 0 0.6em 0
+}
+
+div.bandeau-entete:not(.sans-ligne) {
+    border-bottom: 1px solid #AAA
+}
+
+.indentation,
+.confusion,
+.en-savoir-plus,
+.en-travaux,
+.homonymie,
+.homonymie2,
+.loupe,
+.attention,
+.non-neutre,
+.redaction,
+.star,
+.vikidia,
+.conserver,
+.supprimer,
+.dynamiter,
+.deplacer,
+.fusionner,
+.scinder {
+    background-repeat: no-repeat;
+    line-height: 1.5em;
+    display: inline-block;
+    background-size: 1.5em;
+    text-indent: 1.8em;
+    background-position: 0 0
+}
+
+.confusion {
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Confusion_colour.svg/40px-Confusion_colour.svg.png);
+    background-position: 0 0.2em
+}
+
+.en-savoir-plus {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/5/5e/Bonne_id%C3%A9e.gif);
+    background-size: auto;
+    text-indent: 2.4em
+}
+
+.en-travaux {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/8/84/Travaux.png/60px-Travaux.png);
+    background-size: 2.2em;
+    line-height: 2em;
+    text-indent: 2.5em
+}
+
+.homonymie {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/a/aa/Icone_homonymie.svg/40px-Icone_homonymie.svg.png);
+    background-position: 0 0.2em
+}
+
+.homonymie2 {
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disambig_colour.svg/40px-Disambig_colour.svg.png);
+    background-position: 0 0.2em
+}
+
+.loupe {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/2/27/System-search.png/40px-System-search.png)
+}
+
+.attention,
+.non-neutre {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/c/c7/Attention.png/40px-Attention.png)
+}
+
+.redaction {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/f/f1/%C3%80_r%C3%A9diger.png/40px-%C3%80_r%C3%A9diger.png)
+}
+
+.star {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/b/ba/Icone_%C3%A9toile.png/40px-Icone_%C3%A9toile.png)
+}
+
+.vikidia {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/9/90/VikidiaLogo.PNG/40px-VikidiaLogo.PNG)
+}
+
+.conserver {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/9/95/No_trash_icon.png/40px-No_trash_icon.png)
+}
+
+.supprimer {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/8/8f/Nuvola_gnome-fs-trash-full.png/40px-Nuvola_gnome-fs-trash-full.png)
+}
+
+.dynamiter {
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Explosion-417894_icon.svg/40px-Explosion-417894_icon.svg.png)
+}
+
+.deplacer {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/4/43/Wmerge3.png/40px-Wmerge3.png);
+    background-position: 0 0.5em
+}
+
+.fusionner {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/9/9f/Merge-arrows.png/72px-Merge-arrows.png);
+    background-size: 2.5em;
+    text-indent: 2.8em;
+    background-position: 0 0.3em
+}
+
+.scinder {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/1/1a/Split-arrows.png);
+    background-size: 2.6em;
+    text-indent: 2.8em;
+    background-position: 0 0.4em
+}
+
+.pour,
+.plutot-pour,
+.pour-fort,
+.contre,
+.plutot-contre,
+.contre-fort,
+.neutre,
+.plutot-neutre,
+.neutre-fort,
+.attendre,
+.rediriger {
+    background-repeat: no-repeat;
+    line-height: 1.5em;
+    display: inline-block;
+    background-size: 1.1em;
+    text-indent: 1.4em;
+    background-position: 0 0.25em
+}
+
+.pour {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/a/ab/Symbole_vote_pour.png/30px-Symbole_vote_pour.png)
+}
+
+.plutot-pour {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/f/fa/Symbole_vote_plut%C3%B4t_pour.svg/30px-Symbole_vote_plut%C3%B4t_pour.svg.png)
+}
+
+.pour-fort {
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Fairytale_button_add.svg/30px-Fairytale_button_add.svg.png)
+}
+
+.contre {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/b/be/Symbole_vote_contre.png/30px-Symbole_vote_contre.png)
+}
+
+.plutot-contre {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/3/31/Symbole_vote_plut%C3%B4t_contre.png/30px-Symbole_vote_plut%C3%B4t_contre.png)
+}
+
+.contre-fort {
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Fairytale_button_cancel.svg/30px-Fairytale_button_cancel.svg.png)
+}
+
+.neutre {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/b/b2/Symbole_vote_neutre.png/30px-Symbole_vote_neutre.png)
+}
+
+.plutot-neutre {
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Symbol_partially_neutral_vote.svg/30px-Symbol_partially_neutral_vote.svg.png)
+}
+
+.neutre-fort {
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Symbol_neutral_vote_black.svg/30px-Symbol_neutral_vote_black.svg.png)
+}
+
+.attendre {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/0/0b/Symbole_vote_attendre.png/30px-Symbole_vote_attendre.png)
+}
+
+.rediriger {
+    background-image: url(//download.vikidia.org/vikidia/fr/images/thumb/c/ce/Symbol_rename_vote.png/30px-Symbol_rename_vote.png)
+}
+
+.texte-en-rouge {
+    color: red
+}
+
+.italique,
+.italique i i {
+    font-style: italic
+}
+
+.italique i,
+.italique i i i {
+    font-style: normal
+}
+
+abbr.abbr {
+    text-decoration: none;
+    border-bottom: 0
+}
+
+.nowrap {
+    white-space: nowrap
+}
+
+.grand-texte {
+    font-size: 150%
+}
+
+table.metadata {
+    border: 1px solid #aaaaaa;
+    display: none;
+    speak: none
+}
+
+.metadata-label {
+    color: #aaaaaa
+}
+
+#siteSub {
+    display: none
+}
+
+#localNotice {
+    min-height: 2.5em
+}
+
+div.errorbox>ul>li {
+    display: contents
+}
+
+.hidden {
+    position: absolute;
+    left: 0;
+    top: -5000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden
+}
+
+caption.hidden {
+    position: static;
+    text-indent: -5000px
+}
+
+div.thumb {
+    border: none
+}
+
+div.tright {
+    border: none;
+    margin: 0.5em 0 0.8em 1.4em
+}
+
+div.tleft {
+    border: none;
+    margin: 0.5em 1.4em 0.8em 0
+}
+
+.multi-bandeau .bandeau {
+    width: 100% !important
+}
+
+.info-image .bandeau {
+    width: 80% !important
+}
+
+#wpUploadDescription {
+    height: 150px
+}
+
+#divou {
+    display: inline;
+    padding-left: 20px
+}
+
+#coordinates-title {
+    display: none
+}
+
+#coordinates {
+    display: none
+}
+
+#sous_titre {
+    margin-top: 1em;
+    padding: 0.5em;
+    padding-bottom: 0.5em;
+    border-style: solid;
+    font-weight: bold;
+    border-color: #AAAAAA;
+    border-width: 1px 2px 2px 1px;
+    border-radius: 0.5em;
+    display: block;
+    font-size: 1.7em;
+    color: #555555;
+    line-height: 1.3em;
+    margin: 0.2em 0 0 0.5em
+}
+
+.toc_niveau_1 ul ul,
+.toc_niveau_2 ul ul ul,
+.toc_niveau_3 ul ul ul ul,
+.toc_niveau_4 ul ul ul ul ul,
+.toc_niveau_5 ul ul ul ul ul ul {
+    display: none
+}
+
+.mw-toolbox {
+    font-size: 90%;
+    background: #F8F8F8;
+    border: 1px solid #B8B8B8;
+    padding: .25em 1em .25em 1em;
+    clear: both
+}
+
+@media print {
+    #donation-box {
+        display: none
+    }
+}
+
+#coll-download-as-rl {
+    display: none
+}
+
+.page-Vikidia_Accueil .firstHeading {
+    display: none
+}
+
+div.searchresults>p.mw-search-exists {
+    border: 1px green solid;
+    background: #EEFFEE;
+    padding: 1em;
+    text-align: center;
+    font-size: 120%
+}
+
+.wpb-banner-image img {
+    visibility: initial ! important
+}
+
+kbd {
+    background-color: #DDD;
+    border-radius: 4px;
+    padding: 2px 5px 3px 3px;
+    box-shadow: inset -2px -3px 0 0 #666
+}
+
+.mw-special-AbuseFilter .diff-lineno {
+    display: none
+}
+
+.mw-special-AbuseFilter .diff-marker {
+    text-align: center !important
+}
+
+.mw-version-license-info strong {
+    font-weight: bold !important
+}
+
+pre,
+#toc,
+div.thumbinner {
+    background-color: #EEEEFF;
+    border-style: solid;
+    overflow: auto
+}
+
+#file img {
+    background: url(//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png)
+}
+
+ol.references {
+    font-size: 90%
+}
+
+table.gallery {
+    margin: 2px auto;
+    border-width: 1px 2px 2px 1px
+}
+
+#toolbar {
+    margin-top: 1em
+}
+
+fieldset,
+#mw-recreate-deleted-warn,
+#mw-upload-deleted-warn,
+div.mw-warning-with-logexcerpt,
+div.noarticletext,
+.catlinks,
+.mw-warning {
+    margin: 1ex;
+    padding: 1ex;
+    background-color: transparent;
+    border: 1px solid #BCCCDA;
+    text-align: left
+}
+
+.message {
+    border: 1px solid #deeeff;
+    padding: 1ex;
+    margin: 1ex
+}
+
+#siteNotice p {
+    margin-top: 0
+}
+
+#p-personal ul {
+    text-transform: none
+}
+
+.ns-talk dl {
+    margin-left: 1em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    border-top: 1px solid #7F7F7F;
+    border-left: 1px solid #7F7F7F
+}
+
+.ns-talk dd {
+    margin: 0;
+    padding: 0
+}
+
+.ns-talk dl,
+.ns-talk dl dl dl,
+.ns-talk dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl {
+    background-color: #EDEDED
+}
+
+.ns-talk dl dl,
+.ns-talk dl dl dl dl,
+.ns-talk dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl,
+.ns-talk dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl dl {
+    background-color: #FFFFFF
+}
+
+.page-Accueil #firstHeading,
+.page-Accueil #siteSub {
+    display: none
+}
+
+table.wikitable th {
+    background-color: #EEEEFF
+}
+
+table.wikitable caption {
+    margin-bottom: 0.5em;
+    font-weight: bold
+}
+
+div.NavFrame {
+    margin: 0;
+    padding: 2px;
+    border: 1px #AAAAAA;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 95%
+}
+
+div.NavFrame+div.NavFrame {
+    border-top-style: hidden
+}
+
+div.NavPic {
+    background: white;
+    margin: 0;
+    padding: 2px;
+    float: left
+}
+
+div.NavFrame div.NavHead {
+    height: 1.6em;
+    font-weight: bold;
+    font-size: 100%;
+    background: #EFEFEF
+}
+
+div.NavFrame p,
+div.NavFrame div.NavContent,
+div.NavFrame div.NavContent p {
+    font-size: 100%
+}
+
+div.NavEnd {
+    margin: 0;
+    padding: 0;
+    line-height: 1px;
+    clear: both
+}
+
+.NavToggle {
+    font-size: 90%;
+    float: right
+}
+
+@media screen and (max-width:650px) {
+    #mobilelogo {
+        display: block
+    }
+
+    #siteNotice {
+        display: none
+    }
+
+    #content {
+        margin-left: 0
+    }
+
+    #content {
+        padding: 0.5em 0.5em 0.5em 0.5em
+    }
+
+    #mw-panel {
+        position: relative
+    }
+
+    #left-navigation {
+        margin-left: 0
+    }
+
+    #left-navigation {
+        margin-top: 0
+    }
+
+    #p-personal ul {
+        padding-left: 84px
+    }
+
+    #inviteDiscussion {
+        display: none
+    }
+
+    .fullWidthMobile {
+        width: 100%
+    }
+
+    #mw-head-base {
+        height: 179px
+    }
+}
+
+@media print {
+    .hidden {
+        display: none
+    }
+
+    caption.hidden {
+        display: none
+    }
+}

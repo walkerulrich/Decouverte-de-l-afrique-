@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+
+}
+
+header{
+    display: flex;
+    height: 20dvh;
+    justify-content: center;
+    background-image: url(../img/accueil.2.jpeg);
+    color: white;
+}
+
+p{
+    margin-top: auto;
+    text-align: center;
+}
+
+p input{
+  font-size: 500%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: 10dvh;
+    margin-bottom: 0;
+    color: white;
+}
